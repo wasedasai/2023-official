@@ -55,50 +55,29 @@
            </div>
        </nav>
    </header>
-
-   <div class="topimg">
-     <img src="../static/img/sansantopchu.jpg">
-   </div>
- <!--NEWS-->
- <div class="news">
-  <p>NEWS</p>
-  <div class="newscontainer">
-   <div class="paragraph">早稲田祭2023 参加団体・参加者募集及び出演団体・出演者募集 情報解禁！</div>
-  </div>
- </div>
-
-   <div class="content">
-   <div class="text">
-    <br />
-      <h2>【早稲田祭2023 開催決定】</h2>
-      <p>
-        どんなときも変わらず、<br />
-        早稲田で叶えたい「夢」が<br />
-        私たち早大生を衝き動かしてきました。
-      </p>
-
-      <p >
-        「ユメヒビケ」
-      </p>
-
-      <p>
-        早稲田で咲き誇るユメ。<br />
-        あふれんばかりの情熱。<br />
-        今を時めく早大生の姿。
-      </p>
-        
-      <p>
-        この祭の全てがあなたの心に深く響き、<br />
-        新たなユメが芽吹くきっかけとなりますように。
-      </p>
-        <br />
-        <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo90dC2DP20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      <br />
-      <br />
-   </div>
-  </div>
+   <div class="maintext">
+    <div class="bunshou">
+      <p class="bigtitle">
+        【早稲田祭2023 開催決定】
+     </p>
+     <p class="honbun">
+      どんなときも変わらず、</br>早稲田で叶えたい「夢」が</br>私たち早大生を衝き動かしてきました。
+     </p>
+     <p class="dreamtitle">
+      「ユメヒビケ」
+    </p>
+    <p class="honbun">
+      早稲田で咲き誇るユメ。</br>あふれんばかりの情熱。</br>今を時めく早大生の姿。
+    </p>
+    <p class="honbun">
+      この祭の全てがあなたの心に深く響き、</br>新たなユメが芽吹くきっかけとなりますように。
+    </p>
+     </div>
+     <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo90dC2DP20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+  
 
 <footer class="footer">
  <div class="footer-inner">
@@ -136,14 +115,52 @@
 </footer>
 
  <style>
-  p{
- color:#1b1725;
+   .maintext{
+      background-image: url(../static/img/haikeipc.png);
+      background-size: 100% auto;
+    }
+  @media screen and (max-width: 960px){
+    .maintext{
+      background-image: url(../static/img/haikeisp.png);
+      background-size: 100% auto;
+    }
   }
-  .text{
+   .bunshou{
+    width: 70%;
     text-align: center;
-  }
+    margin: 0 auto;
+   }
+   .bigtitle{
+    color: #1b1725;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0;
+    padding-top: 20px;
+   }
+   .title{
+    border-bottom: 3px solid #e084c1;
+    width: fit-content;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 18px;
+   }
+   .honbun{
+    width:100%;
+    letter-spacing: 0.5px;
+    line-height: 14px;
+    font-size: 14px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    color:#1b1725;
+   }
+   .dreamtitle{
+    color:#CC3399;
+     font-size: 30px;
+     font-family: "senobi-gothic", sans-serif;
+   }
   .video{
     text-align: center;
+    padding-bottom: 30px;
   }
 
   .content {
@@ -152,260 +169,13 @@
     }
 
     @media screen and (max-width: 520px) {
-      .content {
-    background-image: url(../static/img/haikeisp.png);  
-    background-size:  cover; 
-  
-    }
     iframe {
     display: block;
-    width: 354px;
+    width: 70%;
     height: 200px;
     margin: 0 auto;
     }
-  }  
-
-   .topimg img{
-     width: 100%;
-   }
-   .topbody{
-     background-color: #F2E7F1;
-   }
-   /*丸ボタン*/
-   .marucontainer{
-     padding-top: 50px;
-     padding-bottom: 30px;
-     width: 70%;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     margin: 0 auto;
-   }
-   .marucontainer a{
-     text-decoration: none;
-     font-weight: bold;
-   }
-   .circlebtn{
-     width: 200px;
-     height: 200px;
-     border-radius: 50%;
-     background-color: #CC3399;
-     color: #ffffff;
-     text-align: center;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     box-shadow: 5px 5px #a3287a;
-   }
- /*NEWS*/
-   .news{
-     background-color: #ffffff;
-     border: 3px solid #CC3399;
-     width: 450px;
-     width: 550px;
-     height: 200px;
-     margin: 0 auto;
-     border-radius: 40px;
-     padding-bottom: 30px;
-     margin-top: 50px;
-   }
- .newscontainer{
-   display:flex;
-   margin: 0 auto;
-   flex-direction: column;
- overflow-y: scroll;
- width: 450px;
- height: 150px;
- text-align: center;
- }
- .newscontainer a{
-   color:#CC3399;
- }
- 
- .newscontainer a:hover{
-   color:#e084c1;
- }
-   .news p{
-   text-align: center;
-   font-weight: bold;
-   font-size: 20px;
-   color: #08263a;
- }
- .newscontainer paragraph{
- padding-left: 20px;
- }
- /* NEWSが増えてきたらここのコメントアウトを外す
- .newscontainer::-webkit-scrollbar{
- border-radius: 3px;
- width: 7px;
- }
- .newscontainer::-webkit-scrollbar-track{
- background-color: #F2E7F1;
- border-radius: 3px;
-
- }
- .newscontainer::-webkit-scrollbar-thumb{
- background: #CC3399;
- border-radius: 6px;
- }
- */
-
- /*Squarelinik*/
- .f-container{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     align-content: space-around;
-     padding-top: 50px;
-   }
-     .squarelinkpink{
-       margin-bottom: 50px;
-     }
-     .squarelinkgreen{
-       margin-bottom: 50px;
-     }
-     .squarelinkyellow{
-       margin-bottom: 50px;
-     }
-  .textbox{
-   text-align: center;
-  }
-
-  .circle-parents{
-   margin-top: 30px;
-  }
-  /*代表挨拶*/
-  .dream{
-     color:#CC3399;
-     font-weight: bold;
-     font-family: "senobi-gothic", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: larger;
-     margin: 10px 0;
-   }
-   .textbox{
-     text-align: center;
-     margin: 2em;
-   }
-  @media screen and (max-width: 1024px)  and (min-width: 520px) {
-   .news{
-     border: 3px solid #CC3399;
-     width: 450px;
-     height: 180px;
-   }
-   .newscontainer{
-   display:flex;
-   flex-direction: column;
- overflow-y: scroll;
- width: 400px;
- height: 110px;
- text-align: center;
- }
-   }
-  @media screen and (max-width: 520px) {
-   .circle-parents{
-     margin-top: 50px;
-   } 
-   .news{
-     border: 3px solid #CC3399;
-     width: 350px;
-     height: 160px;
-   }
-   .newscontainer{
-     display:flex;
-     flex-direction: column;
-     overflow-y: scroll;
-     width: 300px;
-     height: 100px;
-     text-align: center;
-   }
-   .marucontainer{
-       flex-direction: column;
-       justify-content: center;
-       width: 50%;
-   }
-   .circlebtn{
-       margin-bottom: 2.5em;
-   }
-   }
-
-   .footer {
-    background-color: #F2E7F1;
-    color:#08263A;
-    padding: 3rem 1rem;
-    position: relative;
-  }
-  
-  .footer-inner {
-    max-width: 1200px;
-    margin: auto;
-  }
-  
-  .footer-body {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-logo-container {
-    max-width: 240px;
-  }
-  .footer-logo{
-    width:150px;
-    display: none;
-  }
-  
-  .footer-navi-list {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 0.5rem;
-    display: none;
-  }
-  hr {
-    display: none;
-  }
-  
-  .nav-list {
-    width: 100%;
-  }
-  
-  .nav-list li a {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 0.5rem 1rem;
-    color: #4c2219;
-    text-decoration: none;
-  }
-  
-  .nav-list li a:hover {
-    color: #804b40;
-  }
-  
-  .footer-sns-title {
-    text-align: center;
-    color: #4c2219;
-    padding-top: 1rem;
-  }
-  
-  .sns-links-container {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    padding-top: 1rem;
-    flex-wrap: wrap;
-  }
-  
-  .sns-links-container .sns-link {
-    width: 48px;
-    filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
-    transition-duration: 0.4s;
-  }
-  .sns-links-container .sns-link:hover {
-    filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
-  }
+  } 
  </style>
  </body>
 
