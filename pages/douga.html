@@ -58,6 +58,7 @@
 
    <div class="content">
    <div class="text">
+    <br />
       <h2>【早稲田祭2023 開催決定】</h2>
       <p>
         どんなときも変わらず、<br />
@@ -80,7 +81,9 @@
         新たなユメが芽吹くきっかけとなりますように。
       </p>
         <br />
-      <video src=""  controls></video>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo90dC2DP20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       <br />
       <br />
    </div>
@@ -129,6 +132,9 @@
   .text{
     text-align: center;
   }
+  .video{
+    text-align: center;
+  }
 
   .content {
     background-image: url(../static/img/haikeipc.png);    
@@ -139,8 +145,15 @@
       .content {
     background-image: url(../static/img/haikeisp.png);  
     background-size:  cover; 
-    }  
+  
     }
+    iframe {
+display: block;
+width: 354px;
+height: 200px;
+margin: 0 auto;
+}
+  }  
 
    .topimg img{
      width: 100%;
