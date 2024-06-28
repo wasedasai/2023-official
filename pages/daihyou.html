@@ -1,1 +1,75 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>早稲田祭2024 公式サイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="../css/daihyou.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="canonical" href="https://wasedasai.github.io/2023-Shinkan/index.html"> -->
+    <meta name="google-site-verification" content="AN9Z6c0SLwnd6aV6AHVgEswJSbA8MOT_jS5lFlX-hjw" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="早稲田祭2024公式サイトです。"> 
+    <meta name="keywords" content="早稲田祭,早稲田祭運営スタッフ,早稲田,文化祭,早稲田祭2024運営スタッフ,早稲田祭2024,学園祭,早稲田文化祭,早稲田学園祭">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="早稲田祭2024公式サイト"/>
+    <meta property="og:description" content="早稲田祭2024公式サイトです。" />
+    <meta property="og:site_name" content="早稲田祭2024公式サイト" />
+    <meta property="og:image" content="https://wasedasai.github.io/2023sansan/static/img/logo_catch.png"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@wasedasai" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet"/>
+ </head>
+<body>
+    <div class="header">
+    </div>
+    <div id="navArea">
+        <nav>
+            <div class="inner">
+                <ul>
+                    <li><a href="../index.html">Top</a></li>
+                    <li><a href="./gaiyou.html">開催のお知らせ</a></li>
+                    <li><a href="./daihyou.html">代表挨拶</a></li>
+                    <li><a href="./theme.html">キャッチコピー・ロゴ</a></li>
+                    <li><a href="./enterprise.html">企業の皆様へ</a></li>
+                    <li><a href="./meishi.html">校友の皆様へ</a></li>
+                    <li><a href="./themesong.html">公式テーマソング募集</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="mask"></div>
+    </div>
+    <div class="maintext">
+        <p class="pagetitle">代表挨拶</p>
+        <!-- この下からページタイトル以下を記述してね～～！ -->
+    </div>
+    <script>
+        (function($) {
+            var $nav   = $('#navArea');
+            var $btn   = $('.toggle_btn');
+            var $mask  = $('#mask');
+            var open   = 'open'; // class
+            // menu open close
+            $btn.on( 'click', function() {
+                if ( ! $nav.hasClass( open ) ) {
+                $nav.addClass( open );
+                } else {
+                $nav.removeClass( open );
+                }
+            });
+            // mask close
+            $mask.on('click', function() {
+                $nav.removeClass( open );
+            });
+            } )(jQuery);
+    </script>
+</body>
+</html>
