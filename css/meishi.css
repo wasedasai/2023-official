@@ -1,1 +1,92 @@
-
+/* アコーディオン */    
+details{
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+}
+summary{
+    display: block;
+}
+summary::-webkit-details-marker {
+    display: none; 
+}
+summary::after{
+    content: 'もっと見る';
+    color: #7db0be;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+}
+.moreread{
+    margin: 0;
+}
+details[open] summary::after{
+    content: '閉じる';
+}
+/* アコーディオン終わり */
+.maintext{
+    text-align: center;
+    color: #3e3a39;
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+.container > h2{
+    margin-bottom: 5px;
+}
+.container > p{
+    font-size: 20px;
+    text-align: left;
+}
+.meishi-koumoku{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.kasen{
+    border-bottom: 1.5px solid #aeddee;
+    padding-bottom: .1em;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.light > a{
+    color: #036eb8;
+}
+.humei{
+    margin-top: 80px;
+}
+.center{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.footer{
+    margin-top: 80px;
+}
+@media screen and (max-width:1023px){
+    .maintext{
+        width: 70%;
+    }
+    .container > p{
+        font-size: 14px;
+    }
+    .meishi-koumoku{
+        font-size: 14px;
+    }
+    .humei{
+        margin-top: 45px;
+    }
+    .center{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .footer{
+        margin-top: 40px;
+    }
+}
