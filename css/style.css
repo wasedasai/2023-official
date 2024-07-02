@@ -129,9 +129,9 @@ main h1 {
 
 /* Body */
 .maintext{
-    margin-top: 90px;
+    /* margin-top: 90px;
     background-image: url(./haikei.png);
-    background-size: 100% auto;
+    background-size: 100% auto; */
 }
 .pagetitle{
     font-size: 36px;
