@@ -11,8 +11,8 @@ summary::-webkit-details-marker {
     display: none; 
 }
 summary::after{
-    content: 'もっと見る';
-    color: #7db0be;
+    content: '続きを読む';
+    color: #59c3e1;
     position: absolute;
     right: 0;
     bottom: -20px;
@@ -28,7 +28,15 @@ details[open] summary::after{
     text-align: center;
     color: #3e3a39;
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    width: 80%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-image: url(../img/haikei.pc.png);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+.container{
+    width: 70%;
     margin: 0 auto;
 }
 .container > h2{
@@ -37,6 +45,9 @@ details[open] summary::after{
 .container > p{
     font-size: 20px;
     text-align: left;
+}
+.for-sp{
+    display: none;
 }
 .meishi-koumoku{
     font-size: 20px;
@@ -64,17 +75,25 @@ details[open] summary::after{
 .center{
     text-align: center;
     font-size: 20px;
-    margin-top: 60px;
-}
-.footer{
-    margin-top: 80px;
+    padding-top: 60px;
+    width: 74%;
+    margin: 0 auto;
 }
 @media screen and (max-width:1023px){
     .maintext{
-        width: 70%;
+        background-image: url(../img/haikei.sp.png);
+    }
+    .container{
+        margin-top: 30px;
     }
     .container > p{
         font-size: 14px;
+    }
+    .for-pc{
+        display: none;
+    }
+    .for-sp{
+        display: block;
     }
     .meishi-koumoku{
         font-size: 14px;
@@ -84,9 +103,8 @@ details[open] summary::after{
     }
     .center{
         font-size: 14px;
-        margin-top: 40px;
-    }
-    .footer{
-        margin-top: 40px;
+        padding-top: 40px;
+        text-align: left;
+        width: 70%;
     }
 }
