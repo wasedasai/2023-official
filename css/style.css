@@ -179,6 +179,11 @@ h2::after{
     bottom: -2px;
 }
 @media screen and (max-width:1023px){
+    /* Body */
+.maintext{
+    background-image: url(../img/haikei.sp.png);
+    background-repeat: repeat;
+}
 /*header+hamburger--------------------*/
 nav {
     right: -220px;
