@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <link href="../css/meishi.css" rel="stylesheet" type="text/css">
+    <link href="../css/theme.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <!-- <link rel="canonical" href="https://wasedasai.github.io/2023-Shinkan/index.html"> -->
     <meta name="google-site-verification" content="AN9Z6c0SLwnd6aV6AHVgEswJSbA8MOT_jS5lFlX-hjw" />
@@ -50,7 +50,49 @@
     <div class="maintext">
         <p class="pagetitle">キャッチコピー・ロゴについて</p>
         <!-- この下からページタイトル以下を記述してね～～！ -->
+    <div class="catchcopy">
+        <div class="section">
+            <!-- SectionTitle -->
+            <h2>キャッチコピーについて</h2>
+        </div>
     </div>
+    <div class="catchcopy-text">
+        <div class="texts">
+          <div class="text1">祭に関わる全ての人は、「物語」の語り手である。</div>
+          <div class="text2">どんな「君」にも、「君」だけの「物語」がある。</div>
+          <div class="text3">「結集」とは、ばらばらになっているものが、1つの目的を持ってまとまること。</div>
+          <div class="text4">全ての「物語」が集い、早稲田祭2024という、壮大な「物語」を奏でる。</div> 
+          <div class="text5">そんな早稲田祭2024を、全ての「君」に。</div>
+        </div>
+    </div>
+    <div class="image-catch">
+        <img class="catch-photo" src="../img/logonomi.png">
+    </div>
+    <div class="logo">
+        <div class="section2">
+            <!-- SectionTitle -->
+            <h2>ロゴについて</h2>
+        </div>
+    </div>
+    <div class="logo-text">
+        <p class="text">
+            コンセプトは「綯う」<br/>
+            色も大きさも異なる3本の紐は、「君物語」が人によって異なるということをイメージしており、<br/>
+            撚り合わさった3本の紐は、一人ひとりが歩んできた「君物語」が結集する様子を表しています。<br/>
+            また、「『物語』が集う場は晴れた空であってほしい」という想いから、メインカラーは爽やか<br/>
+            かな水色にしました。<br/>
+        </p>
+    </div>
+    <div class="image">
+        <img class=logo-photo src="../img/logo_main.png">
+    </div>
+        
+    <footer class="footer">
+        <a href="https://x.com/wasedasai"><img class="sns-link" src="../img/x.png" alt="Xのリンク"/></a>
+        <a href="https://www.instagram.com/wasedasai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img class="sns-link" src="../img/instagram.png" alt="Instagramのリンク"/></a>
+    </footer>
+
+    <div class="maintext">
     <script>
         (function($) {
             var $nav   = $('#navArea');
@@ -71,6 +113,29 @@
             });
             } )(jQuery);
     </script>
+    
+    <script>
+        (function($) {
+            var $nav   = $('#navArea');
+            var $btn   = $('.toggle_btn');
+            var $mask  = $('#mask');
+            var open   = 'open'; // class
+            // menu open close
+            $btn.on( 'click', function() {
+                if ( ! $nav.hasClass( open ) ) {
+                $nav.addClass( open );
+                } else {
+                $nav.removeClass( open );
+                }
+            });
+            // mask close
+            $mask.on('click', function() {
+                $nav.removeClass( open );
+            });
+            } )(jQuery);
+    </script>
+     
+      
 </body>
 </html>
 

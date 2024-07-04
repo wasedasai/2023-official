@@ -1,1 +1,63 @@
+.section{
+   text-align: center;
+}
 
+.catchcopy-text{
+    text-align: center;
+    color:#3e3a39;
+}
+.section2{
+    text-align: center;
+}
+
+.logo-text{
+  text-align: center;
+}
+.texts{
+    display:inline-block;
+    text-align: left;
+}
+.image-catch{
+    text-align: center;
+    padding-top: 30px;
+}
+.catch-photo{
+    width: 700px;
+}
+.text{
+    display:inline-block;
+    text-align: left;
+}
+.image{
+    text-align: center;
+}
+.logo-photo{
+    width: 500px;
+    height: 500px;
+}
+@media screen and (max-width:1023px) {
+    .catch-photo{
+        width: 250px;
+    }
+    .catchcopy-text{
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .texts{
+        display:inline-block;
+        text-align: left;
+    }
+    .logo-text{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .logo{
+        margin-top:5%;
+    }
+    .logo-photo{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
