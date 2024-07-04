@@ -2,7 +2,7 @@
 
 
 .maintext{
-                    font-family: "Noto Sans JP", sans-serif;
+                    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
                     font-optical-sizing: auto;
                     background-image:url(../img/haikei.pc.png)!important;
                     background-repeat: repeat;
@@ -55,7 +55,7 @@
 
 @media print, screen and (max-width:1080px){
 .maintext{
-                    font-family: "Noto Sans JP", sans-serif;
+                    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
                     font-optical-sizing: auto;
                     background-image:url(../img/haikei.pc.png)!important;
                     background-repeat: repeat;
