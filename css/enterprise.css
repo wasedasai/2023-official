@@ -1,1 +1,109 @@
+@media print, screen and (min-width:1080px){
 
+
+.maintext{
+                    font-family: "Noto Sans JP", sans-serif;
+                    font-optical-sizing: auto;
+                    background-image:url(../img/haikei.pc.png)!important;
+                    background-repeat: repeat;
+                    background-size: 100% auto;
+                    color: #3e3a39;
+                    padding:90px 20% 10% 20%!important;
+                    margin-top: 0!important;
+                    
+                   
+}
+
+.pagetitle{
+                    padding-top: 5%;
+
+}
+
+
+
+
+
+.bun{
+                text-align: center;
+                margin-top: 10%;
+
+}
+
+.ao{
+                    color:#036eb8 ;
+}
+
+.hidari{
+                    margin-top: 5%;
+                   text-align: left;
+                   
+
+
+}
+
+.pagetitle{
+                    font-weight:bold;
+}
+
+.hutoi{
+                    text-align: left;
+                    font-weight: bold;
+                   
+}
+}
+
+
+@media print, screen and (max-width:1080px){
+.maintext{
+                    font-family: "Noto Sans JP", sans-serif;
+                    font-optical-sizing: auto;
+                    background-image:url(../img/haikei.pc.png)!important;
+                    background-repeat: repeat;
+                    background-size: 100% auto;
+                    color: #3e3a39;
+                    padding:90px 20% 10% 20%!important;
+                    margin-top: 0!important;
+                                        
+                                       
+}
+                    
+.pagetitle{
+                    padding-top: 5%;
+                    
+ }
+                    
+                    
+                    
+                    
+                    
+.bun{
+                     text-align: center;
+                     margin-top: 10%;
+                     font-size: 14px;
+                    
+ }
+                    
+.ao{
+                    color:#036eb8 ;
+                    font-size: 14px;
+}
+                    
+.hidari{
+                    margin-top: 5%;
+                    text-align: left;
+                    font-size: 14px;
+                   
+                                       
+                    
+                    
+}
+
+
+                    
+.hutoi{
+                    text-align: left;
+                    font-weight: bold;
+                                       
+}
+
+}

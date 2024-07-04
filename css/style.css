@@ -129,11 +129,9 @@ main h1 {
 
 /* Body */
 .maintext{
-    margin-top: 90px;
-    background-image: url(./haikei.png);
-    background-size: 100% auto;
-    background-image: url(../img/haikei.pc.png);
-    background-repeat: repeat;
+    /* margin-top: 90px; */
+    /* background-image: url(./haikei.png);
+    background-size: 100% auto; */
 }
 .pagetitle{
     font-size: 36px;
@@ -181,6 +179,11 @@ h2::after{
     bottom: -2px;
 }
 @media screen and (max-width:1023px){
+    /* Body */
+.maintext{
+    background-image: url(../img/haikei.sp.png);
+    background-repeat: repeat;
+}
 /*header+hamburger--------------------*/
 nav {
     right: -220px;

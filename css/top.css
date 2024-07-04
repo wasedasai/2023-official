@@ -1,1 +1,79 @@
-
+body{
+    color: #3e3a39;
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 20px;
+}
+.maintext1{
+    background-image: url(../img/haikei.pc.png);
+    background-size: 100% auto;
+    z-index: 1;
+    background-repeat: repeat-y;
+}
+.img-parent{
+    position: relative;
+}
+.top-img{
+    opacity: 0.7;
+}
+.logo-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    filter:drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+}
+.top{
+    padding-top: 40px;
+}
+.kettei{
+    text-align: center;
+}
+.theme-top{
+    width: 40vw;
+}
+.aisatu2{
+    margin-top: 35px;
+}
+p{
+    margin: 10px 0;
+}
+.top-youtube{
+    padding: 50px 0;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+}
+br{
+    display: none;
+}
+@media screen and (max-width:1023px){
+    body{
+        font-size: 14px;
+    }
+    .maintext1{
+        background-image: url(../img/haikei.sp.png);
+        
+    }
+    .top{
+        margin-top: 50px;
+        padding-top: 0;
+    }
+    .theme-top{
+        width: 60vw;
+    }
+    .aisatu2{
+        margin-top: 25px;
+    }
+    .top-youtube{
+        padding: 30px 0;
+    }
+    iframe{
+        width: 250px;
+        height: 150px;
+    }
+    br{
+        display: block;
+    }
+}

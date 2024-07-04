@@ -1,1 +1,195 @@
+/* Body */
+.maintext{
+    padding-top: 90px;
+    background-image: url(../img/haikei.pc.png);
+    background-size: 100% auto;
+    background-repeat: repeat;
+}
+.pagetitle{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family:"Noto Sans JP";
+}
 
+.link a{
+    color: #036eb8;
+    font-size: 20px;
+}
+
+/* 文字関連　*/
+.title{
+  text-align: center;
+}
+.honbun{
+    color:#3e3a39;
+    font-size:20px;
+    font-family:"Noto Sans JP";
+    width:70%;
+    text-align: left;
+	  display: inline-block;
+    font-family:"Noto Sans JP";
+    margin-bottom: 30px;
+}
+.honbun a{
+  color: #036eb8;
+}
+.orange{
+  color:#f3982d;
+  font-family:"Noto Sans JP";
+  font-size: 30px;
+  text-align: center;
+  
+}
+.bosyu{
+  margin-top: 30px;
+  font-family:"Noto Sans JP";
+  text-align: center;
+	display: block;
+}
+.hazimeni{
+    color:#3e3a39;
+    font-size:20px;
+    font-family:"Noto Sans JP";
+    width:70%;
+	  display: inline-block;
+    font-family:"Noto Sans JP";
+    margin-bottom: 30px;
+}
+.maegaki{
+  font-family:"Noto Sans JP";
+  text-align: center;
+  padding-top: 30px;
+  display: block;
+}
+
+.contact{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+}
+.h2{
+  text-align: center;
+}
+
+@media screen and (max-width:1023px){
+
+  .maintext{
+    background-image: url(../img/haikei.sp.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+      
+  }
+  .honbun{
+    color:#3e3a39;
+    font-size:14px;
+    font-family:"Noto Sans JP";
+    width:70%;
+    text-align: left;
+	  display: inline-block;
+    font-family:"Noto Sans JP";
+    margin-bottom: 0px;
+    
+}
+.orange{
+  color:#f3982d;
+  font-family:"Noto Sans JP";
+  font-size: 20px;
+  text-align: center;
+  
+}
+.bosyu{
+  margin-top: 0px;
+  font-family:"Noto Sans JP";
+  text-align: center;
+	display: block;
+}
+.hazimeni{
+  font-size:14px;
+  margin-bottom: 10px;
+}
+.maegaki{
+  padding-top: 10px;
+}
+.contact{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+details summary {
+  font-size:17px;
+}
+}
+
+/* アコーディオン　*/
+  details {
+    --arrow-size: 18px;
+    --anime-speed: 0.3s;
+  }
+  
+  details summary {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    font-weight: 700;
+    padding: 1.5em calc(var(--arrow-size) + 3em) 1.5em 3.5em;
+    background: #fff;
+    opacity:1;
+    cursor: pointer;
+    border-bottom: 2.5px solid #f7b260;
+    font-size:20px;
+    font-family:"Noto Sans JP";
+   }
+  
+  details summary::-webkit-details-marker {
+    /* iOSで表示されるデフォルトの三角形アイコンを消す */
+    display: none;
+  }
+  
+  
+  /* ※本来はafter要素の装飾で十分だが、iOSだと疑似要素に「transition」が効かないので、通常のタグを装飾 */
+  details summary .ico {
+    position: absolute;
+    top: 0;
+    right: 1.5em;
+    bottom: 0;
+    display: block;
+    width: var(--arrow-size);
+    height: calc(var(--arrow-size) * 0.6);
+    /*aspect-ratio: 1/0.6;*/
+    /* ※追記 Windows版Chrome124にてaspect-ratioを指定した要素と、position: absoluteの位置調整の組み合わせに不具合が発生したため、height値をcalcの計算に切り替え */
+    margin: auto;
+    background: #F3982D;
+    clip-path: polygon(100% 13%, 50% 100%, 0 13%, 8% 0, 50% 73%, 92% 0);
+    transition: transform var(--anime-speed);
+  }
+  
+  details[open] summary .ico {
+    transform: rotate(180deg);
+  }
+  
+  details .inner {
+    position: relative;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    text-align: center;
+	  display: block;
+    background-color: #fff;
+  }
+
+
+
+/* Footer */
+.footer{
+  width: 100%;
+  height: 135px;
+  background-color: #59c3e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sns-link{
+  margin: 0 40px;
+  width: 60px;
+}
