@@ -9,7 +9,7 @@
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 .link a{
@@ -24,11 +24,11 @@
 .honbun{
     color:#3e3a39;
     font-size:20px;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     width:70%;
     text-align: left;
 	  display: inline-block;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     margin-bottom: 30px;
 }
 .honbun a{
@@ -36,28 +36,28 @@
 }
 .orange{
   color:#f3982d;
-  font-family:"Noto Sans JP";
+  font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 30px;
   text-align: center;
   
 }
 .bosyu{
   margin-top: 30px;
-  font-family:"Noto Sans JP";
+  font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   text-align: center;
 	display: block;
 }
 .hazimeni{
     color:#3e3a39;
     font-size:20px;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     width:70%;
 	  display: inline-block;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     margin-bottom: 30px;
 }
 .maegaki{
-  font-family:"Noto Sans JP";
+  font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   text-align: center;
   padding-top: 30px;
   display: block;
@@ -84,24 +84,24 @@
   .honbun{
     color:#3e3a39;
     font-size:14px;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     width:70%;
     text-align: left;
 	  display: inline-block;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     margin-bottom: 0px;
     
 }
 .orange{
   color:#f3982d;
-  font-family:"Noto Sans JP";
+  font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 20px;
   text-align: center;
   
 }
 .bosyu{
   margin-top: 0px;
-  font-family:"Noto Sans JP";
+  font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   text-align: center;
 	display: block;
 }
@@ -140,7 +140,7 @@ details summary {
     cursor: pointer;
     border-bottom: 2.5px solid #f7b260;
     font-size:20px;
-    font-family:"Noto Sans JP";
+    font-family:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
    }
   
   details summary::-webkit-details-marker {
