@@ -6,8 +6,9 @@
                     font-optical-sizing: auto;
                     background-image:url(../img/haikei.pc.png)!important;
                     background-repeat: repeat;
+                    background-size: 100% auto;
                     color: #3e3a39;
-                    padding:0 20% 10% 20%!important;
+                    padding:90px 20% 10% 20%!important;
                     margin-top: 0!important;
                     
                    
@@ -30,8 +31,6 @@
 
 .ao{
                     color:#036eb8 ;
-                    font-style: bold;
-                    font-weight: bold;
 }
 
 .hidari{
@@ -60,8 +59,9 @@
                     font-optical-sizing: auto;
                     background-image:url(../img/haikei.pc.png)!important;
                     background-repeat: repeat;
+                    background-size: 100% auto;
                     color: #3e3a39;
-                    padding:0 20% 10% 20%!important;
+                    padding:90px 20% 10% 20%!important;
                     margin-top: 0!important;
                                         
                                        
@@ -85,9 +85,7 @@
                     
 .ao{
                     color:#036eb8 ;
-                    font-style: bold;
                     font-size: 14px;
-                    font-weight: bold;
 }
                     
 .hidari{

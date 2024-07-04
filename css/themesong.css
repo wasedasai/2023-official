@@ -1,6 +1,6 @@
 /* Body */
 .maintext{
-    margin-top: 90px;
+    padding-top: 90px;
     background-image: url(../img/haikei.pc.png);
     background-size: 100% auto;
     background-repeat: repeat;
@@ -30,6 +30,9 @@
 	  display: inline-block;
     font-family:"Noto Sans JP";
     margin-bottom: 30px;
+}
+.honbun a{
+  color: #036eb8;
 }
 .orange{
   color:#f3982d;
